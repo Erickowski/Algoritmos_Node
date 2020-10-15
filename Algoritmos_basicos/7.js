@@ -13,8 +13,6 @@ process.stdin.on("data", function (data) {
       console.log("El primer numero es mayor al segundo");
     } else if (numeros[0] < numeros[1]) {
       console.log("El segundo numero es mayor al primero");
-    } else {
-      console.log("Los numeros son iguales");
     }
     process.exit();
   }
